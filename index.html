@@ -1,1 +1,113 @@
-ShopSmallJC on github
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Shop Small JC</title>
+<script type="text/javascript" src="lib/jquery.min.js"></script>
+<script type="text/javascript" src="lib/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript" src="lib/handlebars.js"></script>
+
+<link href="style.css" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<script id="businessesTemplate" type="text/x-handlebars-template">
+      {{#each businesses}}
+      <div class="businessItem">
+        <h1>{{{name}}}</h1>
+        <p>{{address}}</p>
+        
+        </div>
+      </div>
+      {{/each}}
+    </script>
+        <script type="text/javascript" charset="utf-8">
+                var source   = $("#businessesTemplate").html();
+                var template = Handlebars.compile(source);
+
+                $(function() {
+
+                    //return;
+                    var jqxhr = $.getJSON("js/businesses.json")
+                    .error(function(a,b,c) { alert("error"+b+c); })
+                    .success(function(data) {
+                        $("#businessesList").html(template(data));
+                    })
+                });
+            </script>
+<link href="style.css" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+</head>
+
+<body>
+<div class="ribbon">
+	<div class="content">
+   	<ul class="nav">
+    	<li><a href="#santa"><img src="images/nav_santa.png" alt="Visit with Santa."/></a></li>
+        <li><a href="#win"><img src="images/nav_giftcertificate.png" alt="Win a Gift Certificate"/></a></li>
+  		<li><img src="images/nav_bow.png"/></li>
+        <li><a href="#trolley"><img src="images/nav_trolley.png" alt="Free Trolley Rides"/></a></li>
+        <li><a href="#businesses"><img src="images/nav_businesses.png" alt="Participating Businesses"/></a></li>
+        <li><a href="#contact"><img src="images/nav_contact.png" alt="Contact Us"/></a></li>
+    </ul>
+    </div><!--/.content-->
+</div><!--/.ribbon-->
+<div class="wrapper">
+	<div class="content">
+        <div class="sponsor">
+            <h1>Sponsored By:</h1>
+            <img src="images/sponsor-logo.jpg" alt="Hawthorn Bank" width="250">
+        </div>
+    	<div class="row intro">
+        	<img src="images/headline.png" alt="Deal with friday, enjoy saturday"/>
+        	<h2><strong>Saturday, November 29th - Small Business Saturday</strong></h2>
+			<p>Enjoy holiday shopping the way it used to be. Shop friendly, local small businesses throughout <br/>the Jefferson City area. Don't miss the special one-day only sales at the long list of participating businesses.</p>
+        </div>
+        <div class="row santa clearfix"><a name="santa"></a>
+        	<img src="images/santa.png" alt="Visit With Santa" class="alignleft"/>
+        	<h2>Visit with Santa</h2>
+			<p>Santa Claus will be ready to give every good little boy and girl a free gift at the downtown Central Bank location from 10am – 2pm.</p>
+        </div>
+        <div class="row win"><a name="win"></a>
+        	<h2>Win a Gift Certificate</h2>
+			<p>Register to win a <strong>$500, $250 or $100 gift card</strong> at participating businesses. You can only enter at the businesses on November 29th and you have to spend your money by December 24th at participating businesses.</p>
+        </div>
+        <div class="row trolley" id="gallery"><a name="trolley"></a>
+        	<h2>Free Trolley Ride Route</h2>
+			<p>An extra holiday treat – hop on a free trolley and ride across town to shop the participating businesses.<br/><a href="trolleymap.pdf">Click to download</a> a PDF of the trolley route.</p>
+        <div class="row businesses"><a name="businesses"></a>
+        	<h2>Participating Businesses</h2>
+			    <p>Participating businesses opening their doors to you with great buys on Small Business Saturday:</p>
+          <div class="businesseslist" id="businessesList"></div>
+          </div>
+<div class="row contact"><a name="contact"></a>
+<h2>Contact</h2>
+<p>For more information contact Donna Deetz at (573) 619-4377, <a href="mailto:dkdeetz@aol.com">dkdeetz@aol.com</a><br/>or Janet Ousley at (573) 761-0221, <a href="mailto:jousley@newstribune.com">jousley@newstribune.com</a></p>
+
+</div>    
+    </div>
+	
+
+</div><!--/.wrapper-->
+
+<script type="text/javascript">
+$(function() {
+	// Use this example, or...
+	$('a.lightbox').lightBox();
+	
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2450218-22']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
+

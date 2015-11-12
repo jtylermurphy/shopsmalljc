@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*CSS Resets */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+strong {font-weight:bold;}
+.alignleft {float:left;}
+.alignright {float:right;}
+
+body {background:#f9f9f9 url(images/background.jpg) repeat-x top center; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif;}
+
+.content {width:1000px; margin:0 auto; position:relative;}
+.sponsor {position:absolute; top:650px; right:0;}
+
+.ribbon { background:url(images/ribbon.png) repeat-x top center; width:100%; display:block; height:150px;}
+.ribbon .content {text-align:center; height:114px; }
+.nav li {display:block; float:left; margin:0; padding:0;}
+.row {width:100%;}
+.intro {color:#008457; font-size:20px; text-align:center; line-height:1.25; margin-bottom:20px;}
+.intro h2 { font-size:28px;}
+
+.santa, .win, .trolley, .contact, .businesses { color:#d11820; line-height:1.25; font-size:20px;}
+.santa img {margin-right:30px;}
+.santa h2, .win h2, .trolley h2, .contact h2, .businesses h2{ font-size:42px; text-transform:uppercase; margin-top:100px; font-weight:bold;}
+
+.santa { height: 590px;}
+
+.win { text-align:center;}
+.win h2 { margin-top:50px;}
+
+.trolley, .contact {text-align:center; color:#008457;}
+.trolley .map {margin:20px 5px 0; display:inline-block; width:310px;}
+.trolley p {text-align:center;}
+
+.businesseslist {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    //-webkit-column-rule: 4px outset #ff00ff; /* Chrome, Safari, Opera */
+    //-moz-column-rule: 4px outset #ff00ff; /* Firefox */
+    //column-rule: 4px outset #ff00ff;
+
+    margin-top: 10px;
+}
+
+.businessItem { display: inline-block;
+	width: 100%;
+	margin-top: 30px;
+}
+.businessItem h1 { font-weight: bold;}
+
+/*
+.businesses h2, .businesses p {text-align:center;}
+
+.businesses ul {float:left; width:330px; font-size:16px; margin-top:20px;}
+ 
+.businesses table { font-size:.7em; text-align: left; margin:20px auto; }
+.businesses td, .businesses th{padding:5px 10px;}
+.businesses table tbody tr:nth-child(2n) {background:#ddecf1;}
+thead {font-weight:bold; background:#d11820; color:#fff;}
+tr td:nth-child(3) {text-align: center;}
+*/
+.contact {margin-bottom:50px;}
+.contact a {color:#008457;}
+
+.clearfix:after, .row:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix, .row {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix, html[xmlns] .row {
+	display: block;
+}
+ 
+* html .clearfix,  * html .row {
+	height: 1%;
+}
