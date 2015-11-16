@@ -1,152 +1,178 @@
 {
 	"businesses": [
 		{
+			"name": "Alyssa's Garden Boutique",
+			"address": "314 Jefferson Street",
+			"phone": "573-616-1424"			
+		}
+		{
 			"name":	"American Shoe",
-			"address": "221 E High",	
-			"phone": "573 636 8313",		
+			"address": "221 East High Street",	
+			"phone": "573-636-8313",		
 			"url": "www.americanshoeinc.com"
-		},
-
+		},		
 		{	
-			"name":	"Amie B and the Orchid Emporium",	
-			"address": "3004 W Truman Blvd",	
-			"phone": "573 893 6097",	
-			"email": "amiebnme@aol.com"	
-		},
-		{	
-			"name":	"Arris Pizza",
-			"address": "115 West High",
-			"phone": "573 353 0759",
+			"name":	"Art Bazar",
+			"address": "1502 East High Street",
+			"phone": "573-634-4918",
 			"email": "arrispizza.g@embarqmail.com"
+		},
+		{
+			"name": "Busch's Florist",
+			"address": "620 Madison Street",
+			"phone": "573-636-7113"			
 		},
 		{	
 			"name":	"Calena's Fashions",
-			"address": "275 Karen Dr., Holts Summit",
-			"phone": "573 896 5091",
+			"address": "275 Karen Drive",
+			"city": "Holts Summit",
+			"phone": "573-896-5091",
 			"email": "ccooper77@mchsi.com",
 			"url": "www.calenafashions.com"
 		},
 		{	
 			"name":	"Carrie's Hallmark",	
-			"address": "117 E. High",	
-			"phone": "573 635 2712",		
+			"address": "117 East High Street",	
+			"phone": "573-635-2712",		
 			"url": "www.facebook.com/carrieshallmark"
 		},
 		{	
 			"name":	"Classroom Connection",	
-			"address": "1500 E. McCarty",
-			"phone": "573 632 2742",
+			"address": "1500 East McCarty",
+			"phone": "573-632-2742",
 			"email": "ccem1500@yahoo.com",
 			"url": "www.classroomconnectionjc.com"
 		},
 		{	
 			"name":	"Click2Sell4U/Kay's Collectibles",
-			"address": "620 E. High",
-			"phone": "573 619 4377",
+			"address": "620 East High Street",
+			"phone": "573-636-8008",
 			"email": "click2sell4u@aol.com",
 			"url": "www.click2sell4u.com",
 			"url2": "www.kayscollectibles.com"
 		},
+		{
+			"name": "Coffee Zone",
+			"address": "130 East High Street",
+			"phone": "573-761-4277"			
+		},
+		{
+			"name": "Copper Tree Exchange",
+			"address": "114 East High Street",
+			"phone": "573-556-5000"			
+		},
 		{	
 			"name":	"Downtown Book and Toy",
-			"address": "125 E High Street",
-			"phone": "573 635 1185",
+			"address": "125 East High Street",
+			"phone": "573-635-1185",
 			"email": "dtbooks22@gmail.com",
 			"url": "www.bookandtoy.net"
 		},
 		{	
-			"name":	"Extreme Trendz",
-			"address": "744 W Stadium",
-			"phone": "573 556 6669",
-			"email": "bob@extremetrendz.com"
+			"name":	"Ecco Lounge",
+			"address": "703 Jefferson Street",
+			"phone": "573-636-8751"
+		},
+		{
+			"name": "Family Pawn",
+			"address": "515 West Dunklin Street",
+			"phone": "573-635-9636"			
 		},
 		{	
 			"name":	"Fine Mess Boutique",
-			"address": "222 E. High",
+			"address": "222 East High Street",
 			"phone": "573 616 1006",
 			"email": "ssegirls@yahoo.com"
 		},	
 		{
-			"name":	"Haute Salon",
-			"address": "112 E High",
-			"phone": "573 634 7476",
-			"email": "haute_salon@yahoo.com",
-			"url": "hautesalonjc.com"
+			"name":	"High Handsome",
+			"address": "205 East High Street",
+			"phone": "573-826-5053"
 		},
 		{
-			"name":	"High Handsom",	
-			"address": "205 E High",
-			"email": "fapropertiesllc2@aol.com"
+			"name": "Initially Yours",
+			"address": "409 West Miller Street",
+			"phone": "573-556-8293"
+		},
+		{
+			"name": "J Street Vintage",
+			"address": "615 Jefferson Street",
+			"phone": "573-636-6603"
+		},
+		{
+			"name": "Madison's Cafe",
+			"address": "216 Madison Street",
+			"phone": "573-634-2988"			
+		},
+		{
+			"name": "Midwest Travel",
+			"address": "207 East High Street",
+			"phone": "573-635-3995"			
+		},
+		{
+			"name": "Red Wheel Bike Shop",
+			"address": "400 West Main Street",
+			"phone": "573-638-2453"			
 		},
 		{
 			"name":	"River City Florist",
 			"address": "212 Madison St.",
-			"phone": "573 634 3737",
+			"phone": "573-634-3737",
 			"email": "rivercityflorist@gmail.com",
 			"url": "www.rivercityflorist.net"
 		},
 		{
 			"name": "Saffee's",
-			"address": "227 E. High",
-			"phone": "573 636 4512"
+			"address": "227 East High Street",
+			"phone": "573-636-4512"
 		},
 		{
 			"name":	"Samuel's Tuxedos",
-			"address": "236 E High",
-			"phone": "573 634 7267",
+			"address": "236 East High Street",
+			"phone": "573-634-7267",
 			"email": "samuels236@embarqmail.com"
 		},
 		{
-			"name":	"Some Like It Haute",
-			"address": "907 W Main St",
-			"phone": "573 230 9162",
+			"name":	"Snob Shop Exchange",
+			"address": "211 East High Street",
+			"phone": "573-616-1006",
 			"email": "lookinhaute@hotmail.com"
 		},
 		{
-			"name":	"Southbank Gifts",
-			"address": "110 E High",
-			"phone": "573 659 4438",
+			"name":	"Southbank",
+			"address": "110 East High Street",
+			"phone": "573-659-4438",
 			"email": "southbank@socket.net"
 		},
 		{
-			"name":	"Tan Club",
+			"name":	"The Schaefer House",
+			"address": "618 Broadway Street",
+			"phone": "573-635-8877",
+			"email": "schaeferhouse@embarqmail.com",
+			"url": "www.theschaeferhouse.com"
+		},
+		{
+			"name":	"The Tan Club",
 			"address": "2701 W Edgewood",
 			"phone": "573 619 3008",
 			"email": "thetanclub@gmail.com"
 		},
 		{
-			"name":	"The Schaefer House",
-			"address": "618 Broadway",
-			"phone": "573 635 8877",
-			"email": "schaeferhouse@embarqmail.com",
-			"url": "www.theschaeferhouse.com"
+			"name":	"The Trolley Company",
+			"address": "712 East High Street",
+			"phone": "573-619-4377"
 		},
 		{
-			"name":	"The Snob Shop Exchange",
-			"address": "211 E. High",
-			"phone": "573 616 1006",
-			"email": "ssegirls@yahoo.com"
-		}	,
-		{
-			"name":	"Tolson's",	
-			"address": "226 E. High",
-			"phone": "573 636 4022",
+			"name":	"Tolson Drug",	
+			"address": "226 East High Street",
+			"phone": "573-636-3414",
 			"email": "tolsondrug226@gmail.com",
 			"url": "www.tolson-drug.com"
 		},
 		{
-			"name":	"Tupperware",
-			"address": "744 E Stadium West Plaza",
-			"phone": "573 230 8643",
-			"email": "bettydistler@embarqmail.com",
-			"url": "www.magicstarsales.my.tupperware.com"
+			"name":	"Uniquely Rose",
+			"address": "704 West Main Street",
+			"phone": "573-634-7172"
 		},
-		{
-			"name":	"Twisted Canvas",
-			"address": "219 E. High",
-			"phone": "573 644 9989",
-			"email": "info@thetwistedcanvas.com",
-			"url": "www.thetwistedcanvas.com"
-		}
 	]
 }
