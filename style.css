@@ -53,7 +53,7 @@ strong {font-weight:bold;}
 body {background:#f9f9f9 url(images/background.jpg) repeat-x top center; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif;}
 
 .content {width:1000px; margin:0 auto; position:relative;}
-.sponsor {position:absolute; top:650px; right:0;}
+.sponsor { text-align: center; }
 
 .ribbon { background:url(images/ribbon.png) repeat-x top center; width:100%; display:block; height:150px;}
 .ribbon .content {text-align:center; height:114px; }
@@ -64,7 +64,7 @@ body {background:#f9f9f9 url(images/background.jpg) repeat-x top center; margin:
 
 .santa, .win, .trolley, .contact, .businesses { color:#d11820; line-height:1.25; font-size:20px;}
 .santa img {margin-right:30px;}
-.santa h2, .win h2, .trolley h2, .contact h2, .businesses h2{ font-size:42px; text-transform:uppercase; margin-top:100px; font-weight:bold;}
+.santa h2, .win h2, .trolley h2, .contact h2, .businesses h2, .sponsor h2{ font-size:42px; text-transform:uppercase; margin-top:100px; font-weight:bold;}
 
 .santa { height: 590px;}
 
